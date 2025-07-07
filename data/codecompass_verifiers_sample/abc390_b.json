@@ -1,0 +1,274 @@
+{
+    "case_68": {
+      "input": "5\n10000000 9999990 9999980 9999970 9999960",
+      "output": "No\n"
+    },
+    "case_19": {
+      "input": "3\n1000000000 500000000 250000000",
+      "output": "Yes\n"
+    },
+    "case_58": {
+      "input": "5\n32 16 8 4 2",
+      "output": "Yes\n"
+    },
+    "case_30": {
+      "input": "5\n2 4 8 16 31",
+      "output": "No\n"
+    },
+    "case_66": {
+      "input": "4\n8 12 18 27",
+      "output": "Yes\n"
+    },
+    "case_29": {
+      "input": "20\n3 6 12 24 48 96 192 384 768 1536 5000 6144 12288 24576 49152 98304 196608 393216 786432 1572864",
+      "output": "No\n"
+    },
+    "case_25": {
+      "input": "5\n2 4 8 15 32",
+      "output": "No\n"
+    },
+    "case_51": {
+      "input": "4\n1 2 3 5",
+      "output": "No\n"
+    },
+    "case_35": {
+      "input": "3\n1000000000 999999999 999999998",
+      "output": "No\n"
+    },
+    "case_32": {
+      "input": "4\n81 27 9 3",
+      "output": "Yes\n"
+    },
+    "case_6": {
+      "input": "3\n1000000000 100000000 10000000",
+      "output": "Yes\n"
+    },
+    "case_22": {
+      "input": "3\n48 24 12",
+      "output": "Yes\n"
+    },
+    "case_8": {
+      "input": "4\n1000 100 10 1",
+      "output": "Yes\n"
+    },
+    "case_36": {
+      "input": "5\n1 3 9 27 81",
+      "output": "Yes\n"
+    },
+    "case_33": {
+      "input": "5\n1 10 100 1000 9999",
+      "output": "No\n"
+    },
+    "case_34": {
+      "input": "12\n1 2 4 8 16 32 64 128 256 512 1024 2047",
+      "output": "No\n"
+    },
+    "case_63": {
+      "input": "5\n1000000000 999999999 999999998 999999997 999999996",
+      "output": "No\n"
+    },
+    "case_15": {
+      "input": "4\n100 50 25 12",
+      "output": "No\n"
+    },
+    "case_20": {
+      "input": "100\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+      "output": "Yes\n"
+    },
+    "case_54": {
+      "input": "2\n1 1000000000",
+      "output": "Yes\n"
+    },
+    "case_9": {
+      "input": "5\n7 7 7 7 7",
+      "output": "Yes\n"
+    },
+    "case_23": {
+      "input": "2\n2 4",
+      "output": "Yes\n"
+    },
+    "case_55": {
+      "input": "5\n2 4 8 16 15",
+      "output": "No\n"
+    },
+    "case_28": {
+      "input": "5\n1 2 4 8 9",
+      "output": "No\n"
+    },
+    "case_16": {
+      "input": "3\n1000000000 1000000 1000",
+      "output": "Yes\n"
+    },
+    "case_17": {
+      "input": "4\n1000000000 999999999 999999998 999999997",
+      "output": "No\n"
+    },
+    "case_53": {
+      "input": "6\n2 4 8 16 31 64",
+      "output": "No\n"
+    },
+    "case_65": {
+      "input": "10\n999999937 999999929 999999893 999999883 999999797 999999761 999999757 999999751 999999739 999999733",
+      "output": "No\n"
+    },
+    "case_40": {
+      "input": "4\n1 2 1 2",
+      "output": "No\n"
+    },
+    "case_14": {
+      "input": "5\n1 2 4 5 16",
+      "output": "No\n"
+    },
+    "case_4": {
+      "input": "2\n10 8",
+      "output": "Yes\n"
+    },
+    "case_41": {
+      "input": "5\n3 6 12 24 48",
+      "output": "Yes\n"
+    },
+    "case_24": {
+      "input": "6\n1 2 4 8 16 24",
+      "output": "No\n"
+    },
+    "case_57": {
+      "input": "2\n3 6",
+      "output": "Yes\n"
+    },
+    "case_61": {
+      "input": "100\n2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1",
+      "output": "No\n"
+    },
+    "case_50": {
+      "input": "3\n10 8 6",
+      "output": "No\n"
+    },
+    "case_27": {
+      "input": "4\n2 4 8 15",
+      "output": "No\n"
+    },
+    "case_18": {
+      "input": "3\n100 10 1",
+      "output": "Yes\n"
+    },
+    "case_12": {
+      "input": "10\n5 5 5 5 5 5 5 5 5 5",
+      "output": "Yes\n"
+    },
+    "case_49": {
+      "input": "5\n100000 80000 64000 51200 40960",
+      "output": "Yes\n"
+    },
+    "case_46": {
+      "input": "4\n4 6 9 13",
+      "output": "No\n"
+    },
+    "case_42": {
+      "input": "4\n10 15 22 33",
+      "output": "No\n"
+    },
+    "case_59": {
+      "input": "100\n5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 ",
+      "output": "Yes\n"
+    },
+    "case_10": {
+      "input": "2\n1 3",
+      "output": "Yes\n"
+    },
+    "case_60": {
+      "input": "4\n1 2 4 9",
+      "output": "No\n"
+    },
+    "case_62": {
+      "input": "3\n8 4 2",
+      "output": "Yes\n"
+    },
+    "case_38": {
+      "input": "2\n1000000000 999999999",
+      "output": "Yes\n"
+    },
+    "case_11": {
+      "input": "5\n1 2 3 4 5",
+      "output": "No\n"
+    },
+    "case_37": {
+      "input": "3\n1000000000 1000000000 1000000000",
+      "output": "Yes\n"
+    },
+    "case_47": {
+      "input": "2\n5 7",
+      "output": "Yes\n"
+    },
+    "case_52": {
+      "input": "4\n8 4 2 1",
+      "output": "Yes\n"
+    },
+    "case_5": {
+      "input": "5\n1 2 4 8 15",
+      "output": "No\n"
+    },
+    "case_26": {
+      "input": "2\n10 10",
+      "output": "Yes\n"
+    },
+    "case_7": {
+      "input": "5\n1000000000 500000000 250000000 125000000 62500000",
+      "output": "Yes\n"
+    },
+    "case_21": {
+      "input": "3\n1 2 3",
+      "output": "No\n"
+    },
+    "case_39": {
+      "input": "4\n1 2 4 8",
+      "output": "Yes\n"
+    },
+    "case_48": {
+      "input": "6\n1 2 1 2 1 2",
+      "output": "No\n"
+    },
+    "case_43": {
+      "input": "3\n100 50 25",
+      "output": "Yes\n"
+    },
+    "case_64": {
+      "input": "2\n1000000000 500000000",
+      "output": "Yes\n"
+    },
+    "case_1": {
+      "input": "2\n1 2",
+      "output": "Yes\n"
+    },
+    "case_44": {
+      "input": "4\n1 3 9 27",
+      "output": "Yes\n"
+    },
+    "case_67": {
+      "input": "5\n1000000 1000100 1000200 1000300 1000400",
+      "output": "No\n"
+    },
+    "case_31": {
+      "input": "5\n999999999 999999998 999999997 999999996 999999995",
+      "output": "No\n"
+    },
+    "case_13": {
+      "input": "4\n100 80 64 51",
+      "output": "No\n"
+    },
+    "case_3": {
+      "input": "6\n2 4 8 16 32 63",
+      "output": "No\n"
+    },
+    "case_45": {
+      "input": "4\n1 2 3 4",
+      "output": "No\n"
+    },
+    "case_56": {
+      "input": "4\n1 2 4 6",
+      "output": "No\n"
+    },
+    "case_2": {
+      "input": "4\n16 8 4 2",
+      "output": "Yes\n"
+    }
+  }
