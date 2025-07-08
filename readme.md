@@ -27,10 +27,10 @@ This repository provides the following key assets to support full reproducibilit
 *   **CodeCompass Verifiers:**
     *   A comprehensive collection of the SAGA-generated verifiers for all problems in TCGBench-Lite, showcasing the powerful output of our framework.
     *   **Location:** `data/codecompass_verifiers_sample/` (A representative sample)
-    *   **Full Dataset:** [**CodeCompass on Hugging Face**](Yhttps://huggingface.co/datasets/MichaelErchi/CodeCompass)
+    *   **Full Dataset:** [**CodeCompass on Hugging Face**]([https://huggingface.co/datasets/MichaelErchi/CodeCompass](https://huggingface.co/datasets/MichaelErchi/CodeCompass/tree/codecompass))
 *   **SAGA Codeforces Training Data:**
     *   The dataset used to train our specialist TCG models, generated using the SAGA framework.
-    *   **Full Dataset:** [**SAGA Codeforces Data on Hugging Face**](https://huggingface.co/datasets/MichaelErchi/CodeCompass)
+    *   **Full Dataset:** [**SAGA Codeforces Data on Hugging Face**]([https://huggingface.co/datasets/MichaelErchi/CodeCompass](https://huggingface.co/datasets/MichaelErchi/CodeCompass/tree/codeforce_saga))
 *   **SAGA Prompt Templates:**
     *   The detailed and structured prompt templates for both Multidimensional and Differential Analysis that guide the LLM in the SAGA framework.
     *   **Location:** `prompts/`
