@@ -1,9 +1,9 @@
 # SAGA: Strategic Adversarial & Constraint-differential Generative workflow for Test Case Generation
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXXX-b31b1b.svg)](https://arxiv.org/abs/xxxxx)
-[![CodeCompass/SAGA Codeforces Data on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-CodeCompass-blue)](https://huggingface.co/datasets/MichaelErchi/CodeCompass)
+[![arXiv](https://img.shields.io/badge/arXiv-2xxx.xxx-b31b1b.svg)](https://arxiv.org/abs/xxxx)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-opencompass/CodeCompass-blue)](https://huggingface.co/datasets/opencompass/CodeCompass)
 
-This repository is the official implementation and supplementary material for the research paper, **"Rethinking Verification for LLM Code Generation: From Generation to Testing."** This work is a proud contribution to the robust evaluation of large language models from the team at OpenCompass.
+This repository is the official implementation and supplementary material for the research paper, **"Rethinking Verification for LLM Code Generation: From Generation to Testing."** This work is a proud contribution from the [OpenCompass](https://github.com/open-compass/opencompass) team to advance the robust evaluation of large language models.
 
 ## 🚀 Introduction to SAGA
 
@@ -18,19 +18,26 @@ The core mission of SAGA is to significantly enhance the verification of LLM-gen
 
 ## 🌟 Key Assets
 
-This repository provides the following key assets to support full reproducibility and further research:
+This project provides several key assets to support full reproducibility and further research.
 
-*   **TCGBench-Lite Dataset:**
-    *   Contains the problem descriptions for the 270 problems utilized in our primary experiments.
-    *   This dataset is meticulously curated from recent competitive programming contests to ensure contemporary relevance and minimize data leakage.
+### The Unified CodeCompass Dataset on Hugging Face
+
+Our primary contribution is a unified dataset hosted on Hugging Face, containing both the evaluation benchmark and the training data generated via the SAGA framework.
+
+➡️ **[Access the dataset at `opencompass/CodeCompass`](https://huggingface.co/datasets/opencompass/CodeCompass)** ⬅️
+
+This dataset has two main configurations:
+
+1.  **The CodeCompass Benchmark (`name="codecompass_v0"`)**
+    *   This is the high-quality **evaluation benchmark** generated using the SAGA framework. It contains a comprehensive collection of verifiers for all problems in TCGBench-Lite, designed for rigorously testing LLM code generation.
+2.  **The CodeForce-SAGA Training Set (`name="codeforce_saga"`)**
+    *   This is the large-scale **training dataset** used to train our specialist TCG models. It provides a rich source of problems and solutions for fine-tuning models on code intelligence tasks.
+
+### Local Assets in this Repository
+
+*   **TCGBench-Lite Problem Set:**
+    *   Contains the problem descriptions for the 270 problems utilized in our primary experiments. This dataset is meticulously curated from recent competitive programming contests to ensure contemporary relevance and minimize data leakage.
     *   **Location:** `data/tcgbenc_lite_problems.jsonl` (A demo is provided)
-*   **CodeCompass Verifiers:**
-    *   A comprehensive collection of the SAGA-generated verifiers for all problems in TCGBench-Lite, showcasing the powerful output of our framework.
-    *   **Location:** `data/codecompass_verifiers_sample/` (A representative sample)
-    *   **Full Dataset:** [**CodeCompass on Hugging Face**](https://huggingface.co/datasets/MichaelErchi/CodeCompass/tree/codecompass)
-*   **SAGA Codeforces Training Data:**
-    *   The dataset used to train our specialist TCG models, generated using the SAGA framework.
-    *   **Full Dataset:** [**SAGA Codeforces Data on Hugging Face**](https://huggingface.co/datasets/MichaelErchi/CodeCompass/tree/codeforce_saga)
 *   **SAGA Prompt Templates:**
     *   The detailed and structured prompt templates for both Multidimensional and Differential Analysis that guide the LLM in the SAGA framework.
     *   **Location:** `prompts/`
@@ -38,20 +45,19 @@ This repository provides the following key assets to support full reproducibilit
     *   A concrete example of a Python script for a generated test case, illustrating its structure and complexity.
     *   **Location:** `demos/parse.py`
 
-## 🛠️ Coming Soon to OpenCompass
+## 🛠️ Integration with OpenCompass
 
-We are excited to announce that **CodeCompass**, our high-quality, SAGA-generated benchmark, is in the process of being integrated into the [**OpenCompass**](https://github.com/open-compass/opencompass) evaluation framework. This will provide the community with a powerful new tool for rigorously assessing the capabilities of code generation models. Stay tuned for the official release!
+The **CodeCompass Benchmark** is a core component of the OpenCompass ecosystem. It is designed for seamless integration into the [**OpenCompass**](https://github.com/open-compass/opencompass) evaluation framework, providing the community with a powerful new tool for rigorously assessing the capabilities of code generation models.
 
 ## Citation
 
 If you find our work useful in your research, please consider citing our paper:
 
 ```bibtex
-@misc{ma2025rethinking,
-      title={Rethinking Verification for LLM Code Generation: From Generation to Testing},
-      author={Zihan Ma and Taolin Zhang and Maosong Cao and Wenwei Zhang and Minnan Luo and Songyang Zhang and Kai Chen},
-      year={2025},
-      eprint={XXXXX},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE}
+@article{ma2024rethinking,
+  title={Rethinking Verification for LLM Code Generation: From Generation to Testing},
+  author={Ma, Zihan and Zhang, Taolin and Cao, Maosong and Zhang, Wenwei and Luo, Minnan and Zhang, Songyang and Chen, Kai},
+  journal={arXiv preprint arXiv:xxxx},
+  year={2025}
 }
+```
