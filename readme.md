@@ -1,6 +1,6 @@
 # SAGA: Strategic Adversarial & Constraint-differential Generative workflow for Test Case Generation
 
-[![arXiv](https://img.shields.io/badge/arXiv-2xxx.xxx-b31b1b.svg)](https://arxiv.org/abs/xxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2507.06920-b31b1b.svg)](https://arxiv.org/abs/2507.06920)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-opencompass/CodeCompass-blue)](https://huggingface.co/datasets/opencompass/CodeCompass)
 
 This repository is the official implementation and supplementary material for the research paper, **"Rethinking Verification for LLM Code Generation: From Generation to Testing."** This work is a proud contribution from the [OpenCompass](https://github.com/open-compass/opencompass) team to advance the robust evaluation of large language models.
@@ -54,10 +54,13 @@ The **CodeCompass Benchmark** is a core component of the OpenCompass ecosystem. 
 If you find our work useful in your research, please consider citing our paper:
 
 ```bibtex
-@article{ma2024rethinking,
-  title={Rethinking Verification for LLM Code Generation: From Generation to Testing},
-  author={Ma, Zihan and Zhang, Taolin and Cao, Maosong and Zhang, Wenwei and Luo, Minnan and Zhang, Songyang and Chen, Kai},
-  journal={arXiv preprint arXiv:xxxx},
-  year={2025}
+@misc{ma2025rethinkingverificationllmcode,
+      title={Rethinking Verification for LLM Code Generation: From Generation to Testing}, 
+      author={Zihan Ma and Taolin Zhang and Maosong Cao and Wenwei Zhang and Minnan Luo and Songyang Zhang and Kai Chen},
+      year={2025},
+      eprint={2507.06920},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.06920}, 
 }
 ```
