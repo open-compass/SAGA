@@ -45,9 +45,9 @@ This dataset has two main configurations:
     *   A concrete example of a Python script for a generated test case, illustrating its structure and complexity.
     *   **Location:** `demos/parse.py`
 
-## 🛠️ Integration with OpenCompass
+## 🛠️ Integration with OpenCompass (Coming Soon)
 
-The **CodeCompass Benchmark** is a core component of the OpenCompass ecosystem. It is designed for seamless integration into the [**OpenCompass**](https://github.com/open-compass/opencompass) evaluation framework, providing the community with a powerful new tool for rigorously assessing the capabilities of code generation models.
+The **CodeCompass Benchmark** will be a component of the OpenCompass ecosystem. It is designed for seamless integration into the [**OpenCompass**](https://github.com/open-compass/opencompass) evaluation framework, providing the community with a powerful new tool for rigorously assessing the capabilities of code generation models.
 
 ## Citation
 
