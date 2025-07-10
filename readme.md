@@ -27,12 +27,10 @@ We release two major datasets built with the SAGA framework:
 
 #### 🔹 CodeCompass Benchmark
 - **URL:** [https://huggingface.co/datasets/opencompass/CodeCompass](https://huggingface.co/datasets/opencompass/CodeCompass)
-- **Configuration Name:** `codecompass_v0`
 - A high-quality **evaluation benchmark** containing rigorous and diverse verifiers for all problems in TCGBench-Lite, designed for evaluating LLM code generation systems.
 
 #### 🔸 CodeForce_SAGA Training Set
 - **URL:** [https://huggingface.co/datasets/opencompass/CodeForce_SAGA](https://huggingface.co/datasets/opencompass/CodeForce_SAGA)
-- **Configuration Name:** `default`
 - A large-scale **training dataset** constructed using the SAGA framework. It is built from competitive programming problems and enriched via SAGA to produce fine-grained test cases for training code intelligence models.
 
 ### 📁 Local Assets in this Repository
