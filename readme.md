@@ -56,13 +56,12 @@ The **CodeCompass Benchmark** will soon be integrated into the [**OpenCompass**]
 If you find our work useful, please consider citing:
 
 ```bibtex
-@misc{ma2025rethinkingverificationllmcode,
-      title={Rethinking Verification for LLM Code Generation: From Generation to Testing}, 
-      author={Zihan Ma and Taolin Zhang and Maosong Cao and Junnan Liu and Wenwei Zhang and Minnan Luo and Songyang Zhang and Kai Chen},
-      year={2025},
-      eprint={2507.06920},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.06920}, 
+@inproceedings{
+ma2025rethinking,
+title={Rethinking Verification for {LLM} Code Generation: From Generation to Testing},
+author={Zihan Ma and Taolin Zhang and Maosongcao and Junnan Liu and Wenwei Zhang and Minnan Luo and Songyang Zhang and Kai Chen},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=Gp2vgxWROE}
 }
 ```
